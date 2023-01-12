@@ -1,10 +1,8 @@
 import ExpenseItem from './ExpenseItem';
-import './Expense.css';
+import './Expenses.css';
 
 function Expenses(props) {
-return (
-
-<div>
+return ( <div>
 
 <ExpenseItem 
       title={props.items[0].title}
@@ -31,6 +29,7 @@ return (
 />
 </div>
 )
+
 
 
 }
